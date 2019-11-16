@@ -1,1 +1,1 @@
-![wallpaper](wallpaper.png)
+![wallpaper](wallpaper.PNG)
