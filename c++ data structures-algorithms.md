@@ -41,13 +41,7 @@
 ## 1.0 Data Structures
 ### 1.1 Overview
 
-![Legend](General/Legend.png)
 
-![DataStructures](General/Data%20Structures.png "Data Structures")
-
-![ComplexityChart](General/Complexity%20Chart.png "Complexity Chart")
-
-![DataStructureSelection](General/Data%20Structures%20Selection.png "Data Structures Selection")
 -------------------------------------------------------
 ### 1.2 Vector `std::vector`
 **Use for**
@@ -478,7 +472,7 @@ p.pop();
 
 **Max Heap Example (using a binary tree)**
 
-![MaxHeap](General/MaxHeap.png)
+
 -------------------------------------------------------
 ## 2.0 Trees
 ### 2.1 Binary Tree
@@ -488,7 +482,7 @@ p.pop();
 
 **Binary Search Tree**
 
-![BinarySearchTree](General/BinarySearchTree.png)
+
 -------------------------------------------------------
 ### 2.2 Balanced Trees
 * Balanced trees are a special type of tree which maintains its balance to ensure `O(log(n))` operations
@@ -521,9 +515,6 @@ p.pop();
 **Average:**
 * `O(log n)`
 
-**Visualization:**
-
-![BinarySearch](Searching/Animations/Binary%20Search.gif "Binary Search")
 -------------------------------------------------------
 ### 2.4 Depth-First Search
 **Idea:**
@@ -541,9 +532,6 @@ p.pop();
 **Performance:**
 * `O(E)`, `E = number of edges`
 
-**Visualization:**
-
-![DepthFirstSearch](Searching/Animations/Depth-First%20Search.gif "Depth-First Search")
 -------------------------------------------------------
 ### 2.5 Breadth-First Search
 **Idea:**
@@ -560,9 +548,6 @@ p.pop();
 **Performance:**
 * `O(E)`, `E = number of edges`
 
-**Visualization:**
-
-![DepthFirstSearch](Searching/Animations/Breadth-First%20Search.gif "Breadth-First Search")
 -------------------------------------------------------
 ## 3.0 NP Complete Problems
 ### 3.1 NP Complete
@@ -604,9 +589,6 @@ p.pop();
 #### Disadvantages
 * Very inefficient for large datasets
 
-#### Visualization
-
-![InsertionSort](Sorting/Animations/Insertion%20Sort.gif "Insertion Sort")
 -------------------------------------------------------
 ### 4.2 Selection Sort
 #### Idea
@@ -629,11 +611,6 @@ p.pop();
 #### Disadvantages
 * Very inefficient for large datasets
 
-#### Visualization
-
-![SelectionSort](Sorting/Animations/Selection%20Sort.gif "Selection Sort")
-
-![SelectionSort](Sorting/Animations/Selection%20Sort%202.gif "Selection Sort 2")
 -------------------------------------------------------
 ### 4.3 Bubble Sort
 #### Idea
@@ -656,9 +633,6 @@ p.pop();
 * Very inefficient for large datasets
 * Much worse than even insertion sort
 
-#### Visualization
-
-![BubbleSort](Sorting/Animations/Bubble%20Sort.gif "Bubble Sort")
 -------------------------------------------------------
 ### 4.4 Merge Sort
 #### Idea
@@ -684,11 +658,6 @@ p.pop();
 * Still requires O(n) extra space
 * Slightly worse than Quicksort in some instances
 
-#### Visualization
-
-![MergeSort](Sorting/Animations/Merge%20Sort.gif "Merge Sort")
-
-![MergeSort](Sorting/Animations/Merge%20Sort%202.gif "Merge Sort 2")
 -------------------------------------------------------
 ### 4.5 Quicksort
 #### Idea
@@ -718,6 +687,4 @@ p.pop();
     * Choose median of the first, middle, and last elements as pivot
     * Counters worst-case complexity for already-sorted and reverse-sorted
 
-#### Visualization
 
-![QuickSort](Sorting/Animations/Quicksort.gif)
