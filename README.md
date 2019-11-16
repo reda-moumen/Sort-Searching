@@ -1,1 +1,1 @@
-![alt text](http://url/to/wall.png)
+![wall](wall.png)
