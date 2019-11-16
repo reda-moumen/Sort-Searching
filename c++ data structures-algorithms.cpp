@@ -41,13 +41,7 @@
 ## 1.0 Data Structures
 ### 1.1 Overview
 
-![Legend](General/Legend.png)
 
-![DataStructures](General/Data%20Structures.png "Data Structures")
-
-![ComplexityChart](General/Complexity%20Chart.png "Complexity Chart")
-
-![DataStructureSelection](General/Data%20Structures%20Selection.png "Data Structures Selection")
 -------------------------------------------------------
 ### 1.2 Vector `std::vector`
 **Use for**
@@ -478,7 +472,6 @@ p.pop();
 
 **Max Heap Example (using a binary tree)**
 
-![MaxHeap](General/MaxHeap.png)
 -------------------------------------------------------
 ## 2.0 Trees
 ### 2.1 Binary Tree
@@ -488,7 +481,6 @@ p.pop();
 
 **Binary Search Tree**
 
-![BinarySearchTree](General/BinarySearchTree.png)
 -------------------------------------------------------
 ### 2.2 Balanced Trees
 * Balanced trees are a special type of tree which maintains its balance to ensure `O(log(n))` operations
